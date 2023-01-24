@@ -15,3 +15,24 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# 1. build my list
+my_list = ["milk", "eggs", "bacon"]
+
+# 2. build friend's list
+friend_list = ["milk", "beer", "cookies", "apples"]
+
+# 3. combine the two lists
+combined_list = my_list + friend_list
+
+# 4. sort the combined list
+combined_list.sort!
+
+# 5. remove duplicates
+combined_list.uniq!
+
+# 6. prepend "buy " to each item
+combined_list.map! { |item| "buy #{item}" }
+
+# 7. display the list
+puts combined_list
